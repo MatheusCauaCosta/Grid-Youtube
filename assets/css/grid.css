@@ -1,0 +1,9 @@
+main{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 3;
+    grid-template-areas: 
+    "sidebar video video video video"
+    "sidebar video video video video"
+    ". video video video video";
+}
