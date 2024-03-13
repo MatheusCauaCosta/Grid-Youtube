@@ -1,0 +1,54 @@
+main .videos-main{
+    display: flex;
+    position: relative;
+    top: 24px;
+}
+main .videos-main figure{
+    margin: 0;
+}
+main .videos-main #figure-video{
+    width: 250px;
+    height: 140.29px;
+}
+main .videos-main #principal-img{
+    width: 250px;
+    height: 140.29px;
+}
+main .video{
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 262px;
+    padding: 16px;
+    gap: 16px;
+    box-sizing: border-box;
+    
+}
+main .description{
+    display: flex;
+    flex-direction: row;
+    width: 249px;
+    height: 74px;
+    gap: 10px;
+}
+main .description #channel-img{
+    width: 42px;
+    height: 42px;
+}
+main .description .title-view{
+    display: flex;
+    flex-direction: column;
+    width: 197px;
+    height: 84px;
+    gap: 10px;
+}
+main .description #title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+main .description #view{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.41;
+}

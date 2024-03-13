@@ -1,6 +1,6 @@
 main{
     display: grid;
-    grid-template-columns: 218px repeat(4,1fr);
+    grid-template-columns: 218px repeat(4,290px);
     grid-template-rows: auto;
     grid-template-areas: 
     "sidebar video video video video"
@@ -10,6 +10,6 @@ main{
 main .sidebar{
     grid-area: sidebar;
 }
-main .videos{
+main .videos-main{
     grid-area: video;
 }
