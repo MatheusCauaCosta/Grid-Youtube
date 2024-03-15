@@ -1,0 +1,58 @@
+
+
+main .video-padding{
+    width: 282px;
+    height: 262px;
+    padding: 16px;
+    gap: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+}
+main .image figure {
+    width: 250px;
+    height: 140.29px;
+    margin: 0px;
+}
+main .image img{
+    width: 250px;
+    height: 140.29px;
+}
+main .description{
+    display: flex;
+    width: 249px;
+    height: 74px;
+    gap: 10px;
+}
+main .description .channel-image img{
+    width: 42px;
+    height: 42px;
+    
+}
+main .description .channel-image figure{
+    width: 42px;
+    height: 42px;
+    margin: 0px;
+}
+main .description .information{
+    display: flex;
+    flex-direction: column;
+    width: 197px;
+    height: 74px;
+    gap: 14px;
+}
+main .description .information .title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+main .description .information .date-view{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}

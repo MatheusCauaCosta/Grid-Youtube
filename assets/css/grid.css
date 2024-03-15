@@ -1,15 +1,10 @@
 main{
     display: grid;
-    grid-template-columns: 218px repeat(4,290px);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "sidebar video video video video"
-    "sidebar video video video video"
-    ". video video video video";
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,300px);
 }
-main .sidebar{
-    grid-area: sidebar;
+nav{
+    grid-area: 1/1/4/2; 
 }
-main .videos-main{
-    grid-area: video;
-}
+
+
